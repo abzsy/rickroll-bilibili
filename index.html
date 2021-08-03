@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+			integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+		<style>
+			body * {
+				margin: 0;
+				padding: 0;
+				-webkit-tap-highlight-color: transparent;
+				-webkit-touch-callout: none;
+			}
+
+			ul,
+			ol {
+				list-style: none;
+			}
+
+
+			.nav {
+				display: flex;
+				justify-content: space-between;
+			}
+
+			a,a:link,a:visited,a:hover,a:active{
+			    text-decoration: none;
+			    color:inherit;
+			}
+
+			.logo {
+				color: #fb7299;
+				font-size: 6vw;
+				margin: 1.5vw 4vw;
+			}
+
+			.downloadapp {
+				background-color: #fb7299;
+				font-size: 3vw;
+				color: white;
+				width: 20vw;
+				text-align: center;
+				height: 6vw;
+				line-height: 6vw;
+				margin: 2vw 3vw 0;
+				border-radius: 1.5vw;
+			}
+
+			.title {
+				margin: 1vw 4vw;
+			}
+
+			.spread {
+				font-size: 4.26667vw;
+				font-weight: 400;
+				display: inline-block;
+				-webkit-box-sizing: border-box;
+				box-sizing: border-box;
+				color: #212121;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				line-height: 6.4vw;
+			}
+
+			.content {
+				height: 2.53333vw;
+				line-height: 2.53333vw;
+				font-size: 3.73333vw;
+			}
+
+			.sw {
+				display: flex;
+				justify-content: space-around;
+				border-bottom: 1px solid #f1f1f1;
+			}
+
+			.sw li {
+				padding: 10px 0;
+				color: #505050;
+			}
+
+			.desc {
+				margin: 0 4vw 2vw 4vw;
+				font-size: 3.2vw;
+				line-height: 4.8vw;
+				color: #999;
+				display: flex;
+				justify-content: space-between;
+			}
+
+			.bk_img {
+				width: 200px;
+				height: 180px;
+			}
+
+			.recommend {
+				margin-top: 8vw;
+				text-align: center;
+			}
+
+			.comment {
+				margin-top: 25vw;
+				text-align: center;
+			}
+			
+			.re_list{
+				padding-right: 2%;
+			}
+			
+			.re_card {
+				width: 48%;
+				margin-left: 2%;
+				margin-bottom: 3vw;
+			}
+
+			.re_card img {
+				border-radius: 1.6vw;
+				width: 100%;
+				height: 25vw;
+				margin-bottom: 1.5vw;
+			}
+
+			.re_card p {
+				font-size: 3.2vw;
+				color: #212121;
+				text-align: left;
+			}
+
+			.re_list {
+				width: 100%;
+				display: flex;
+				flex-flow: row wrap;
+				align-content: flex-start;
+			}
+		</style>
+		<script>
+			var url = location.search,
+				obj = {};
+			if (url.indexOf("?") != -1) {
+				var str = url.substr(1);
+				strs = str.split("&");
+				for (var i = 0; i < strs.length; i++) {
+					obj[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+				}
+			}
+			if (obj.t) {
+				document.title = obj.t;
+			}
+		</script>
+		<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?d41fa227018de3772f58108c76d3dfd5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+	</head>
+	<body>
+		<div class="nav">
+			<a target="_blank"
+				href="www.thac.cc">
+				<h5 class="logo">THAC</h5>
+			</a>
+			<a href="https://download.pica2021.xyz/page/android-download.php"><p class="downloadapp">下载APP</p></a>
+		</div>
+		<video width="100%" controls="" name="media" autoplay="autoplay">
+			<source
+				src="https://vdse.bdstatic.com//192d9a98d782d9c74c96f09db9378d93.mp4?authorization=bce-auth-v1/40f207e648424f47b2e3dfbb1014b1a5/2021-07-12T02:14:24Z/-1/host/530146520a1c89fb727fbbdb8a0e0c98ec69955459aed4b1c8e00839187536c9+"
+				type="video/mp4">
+		</video>
+		<div class="title">
+			<h1 class="spread">Rick Astley - Never Gonna Give You Up</h1>
+		</div>
+		<div class="desc">
+			<p>恭喜你被骗了</p>
+			<p>1919810万观看</p>
+		</div>
+		<div class="content">
+			<ul class="sw">
+				<li style="">相关推荐</li>
+				<li style="color:#fb7299;border-bottom: 2px solid #fb7299;">评论 114514</li>
+			</ul>
+		</div>
+		<div class="recommend" style="display: none;">
+			<div class="re_list">
+				<div class="re_card">
+					<a href="https://www.thac.cc/game">
+					<img src="https://z4a.net/images/2018/12/12/70469686_p0.png">
+						<p>[HTML5]小游戏列表</p>
+					</a>
+				</div>
+				<div class="re_card">
+					<a href="https://qm.qq.com/cgi-bin/qm/qr?k=YXCdvmJh8-INXRGqaokivQ_khVXEZQkN&jump_from=webapi">
+					<img src="https://z4a.net/images/2018/12/12/69212051_p0.jpg">
+						<p>THAC-泰拉瑞亚服务器</p>
+					</a>
+				</div>
+				<div class="re_card">
+					<a href="https://qm.qq.com/cgi-bin/qm/qr?k=dlaOEIN6N_zMrlqz1XPKSwhwFvicSeT0&jump_from=webapi">
+					<img src="https://z4a.net/images/2018/12/12/64660644_p0.jpg">
+						<p>THAC-MC基岩服务器</p>
+					</a>
+				</div>
+				<div class="re_card">
+					<a href="https://www.thac.cc/kano/x/index.php">
+					<img src="https://img2.baidu.com/it/u=758293431,2409376691&fm=26&fmt=auto&gp=0.jpg">
+						<p>[网页小游戏]吃掉小鹿乃</p>
+					</a>
+				</div>
+				<div class="re_card">
+					<a href="https://qm.qq.com/cgi-bin/qm/qr?k=iq5OFZuRJOUhtpDCHPYpFA8UNNTMDlKR&jump_from=webapi">
+					<img src="https://z4a.net/images/2018/12/12/60141148_p0.png">
+						<p>THAC总部群180093493</p>
+					</a>
+				</div>
+				<div class="re_card">
+					<a href="https://qm.qq.com/cgi-bin/qm/qr?k=s-WXpXpTuNUbJjqed3TSSAXsv0Sviwzl&jump_from=webapi">
+					<img src="https://img2.baidu.com/it/u=2304038616,1568322320&fm=26&fmt=auto&gp=0.jpg">
+						<p>鹿乃单推群664615838</p>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="comment" style="display: block;">
+			<img class="bk_img" src="http://i.miaosu.bid/data/f_86437299.png">
+			<p>被玩坏了~加载不出来</p>
+		</div>
+		<script>
+			$(".sw li").eq(0).click(function(event) {
+				$(".recommend").attr("style", "display:block;");
+				$(".comment").attr("style", "display:none;");
+				$(".sw li").eq(0).attr("style", "color:#fb7299;border-bottom: 2px solid #fb7299;");
+				$(".sw li").eq(1).attr("style", "");
+			});
+			$(".sw li").eq(1).click(function(event) {
+				$(".recommend").attr("style", "display:none;");
+				$(".comment").attr("style", "display:block;");
+				$(".sw li").eq(1).attr("style", "color:#fb7299;border-bottom: 2px solid #fb7299;");
+				$(".sw li").eq(0).attr("style", "");
+			});
+		</script>
+	</body>
+</html>
